@@ -2,4 +2,6 @@
 
 <h1>Project List</h1>
 
-<a href="project1/index.html" target="_blank">Project 1</a>
+<ul>
+    <a href="Lab2/index.html" target="_blank">Lab 2</a>
+<ul>
