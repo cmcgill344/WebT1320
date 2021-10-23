@@ -1,10 +1,10 @@
 body {
-    background-color: bl#4C5973; 
+    background-color: white; 
     font-family: 'Oswald', sans-serif;
 }
 
 #container {
-    background-color: #CEF299;
+    background-color: orange;
     width: 900px;
     margin: 20px auto;
     border-radius: 20px;
@@ -25,13 +25,13 @@ header img {
 header h1 {
     font-size: 2.5em;
     text-align: center;
-    color: #F26D6D;
+    color: orange;
     font-family: 'Oswald', sans-serif;
     text-shadow: 2px 2px 2px black;
 }
 
 nav {
-    background-color:#CEF299
+    background-color:orange
     
     
     ;
@@ -41,32 +41,33 @@ nav {
 
 nav a {
     display: inline-block;
-    background-color: honeydew;
+    background-color: orange;
     height: 40px;
     width: 175px;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 40px;
-    color: #CEF299;
+    color: white;
     text-decoration: none;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px 0px 0 0;
     margin: 0 10px ;
 }
 
 nav a:hover {
-    background-color: indigo;
-    color: lightblue;
+    background-color: white;
+    color: black;
 }
 
 main {
-    background-color: honeydew;
+    background-color: white;
     padding: 20px;
     margin: 0 20px 20px 20px;
+    text-align: center;
 
 }
 main h2 {
     text-align: center;
-    color: purple;
+    color: orange;
     font-size: 2em;
 }
 
@@ -74,13 +75,13 @@ main img {
     display: block;
     width: 50%;
     margin: 20px auto;
-    background-color: yellow;
+    background-color: black;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 footer {
-    background-color: seagreen;
+    background-color: black;
     padding: 60px;
     color: sienna;
     font-size: 1.5em;
@@ -88,13 +89,13 @@ footer {
     border-radius: 0 0 20px 20px;
 }
     .active{
-        background-color: indigo;
-    color: lightblue;
+        background-color: white;
+    color: black;
     }
 
     .pro_head {
         text-align: center;
-        color: blue;
+        color: orange;
         font-size: 1.5em;
         font-family: 'Oswald', sans-serif;
     }
