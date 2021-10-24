@@ -1,0 +1,25 @@
+body {
+    background-color: #5E5F62;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color: white;
+    margin: 10px;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 4px solid #5E5F62; 
+}
+
+header h1 {
+    text-align: center;
+}
