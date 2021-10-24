@@ -6,20 +6,20 @@ body {
 #container {
     background-color: orange;
     width: 900px;
-    margin: 20px auto;
-    border-radius: 20px;
+    margin: 0px auto;
+    border-radius: 20px auto
+;
 }
 
 header {
-    padding-top: 20px 0;
-    background-color:#4C5973;
-    border-radius: 20px 20px 0 0;
+    padding-top: 20px 20px;
+    background-color:black;
 }
 
 header img {
     display: block;
     width: 30%;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 header h1 {
@@ -61,7 +61,7 @@ nav a:hover {
 main {
     background-color: white;
     padding: 20px;
-    margin: 0 20px 20px 20px;
+    margin: 0 40px 40px 40px;
     text-align: center;
 
 }
@@ -83,10 +83,9 @@ main img {
 footer {
     background-color: black;
     padding: 60px;
-    color: sienna;
+    color: white;
     font-size: 1.5em;
     text-align: center;
-    border-radius: 0 0 20px 20px;
 }
     .active{
         background-color: white;
