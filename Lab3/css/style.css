@@ -14,7 +14,9 @@ img {
 
 #container {
     background-color: white;
+    width: 90%;
     margin: 20px auto;
+    border-radius: auto;
 }
 
 header {
@@ -30,8 +32,8 @@ header h1 {
 
 .col {
     border: 4px solid red;
-    padding: 40px;
-    margin: 20px;
+    margin: 40px;
+    padding: 25px;
     border-radius: 20px;
 }
 
@@ -59,10 +61,11 @@ footer {
 @media(min-width: 768px) {
     #container {
         width: 90%;
-        margin: 20px auto;
+        margin: 60px auto;
     }
+
     .col {
-        width: 65%;
+        width: 90%;
         margin: 20px auto;
     }
 
@@ -73,8 +76,8 @@ footer {
 
 @media(min-width: 1024px) {
     #container {
-        width: 50%;
-        border-radius: 20px;
+        width: 90%;
+        border-radius: 0;
     }
    
     #flex {
