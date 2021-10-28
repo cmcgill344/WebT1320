@@ -38,10 +38,14 @@ header h1 {
 
 .col h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-family: 'Qahiri', sans-serif;
 }
 
+.col h3 {
+    text-align: center;
+    font-size: 2em;
+}
 .col img {
     width: 50%;
 }
