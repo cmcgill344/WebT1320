@@ -1,7 +1,7 @@
 
 /*Global Styles*/ 
 body {
-    background-color: #F25757;
+    background-color: black;
 }
 
 img {
@@ -14,18 +14,18 @@ img {
 /*Mobile Styles*/
 
 #container {
-    background-color: pink;
+    background-color: lightskyblue;
     margin: 10px;
 }
 
 header {
-    background-image: url('../images/gcourse1.jpg');
+    background-image: url('Myimages/Mancity1.png');
     background-size: cover;
     padding: 50px
 }
 
 header h1 {
-    color: blue;
+    color: white;
     text-shadow: 2px 2px 2px black;
     text-align: center;
 }
@@ -41,8 +41,8 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: green;
-    color: indianred;
+    background-color: white;
+    color: black;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -58,15 +58,15 @@ nav li a:hover {
 }
 
     nav, section, aside, .col, footer {
-    background-color: tan;
+    background-color: lightskyblue;
     padding: 20px;
     margin: 10px;
-    border: 4px solid yellow;
+    border: 4px solid white;
     border-radius: 10px;
 }
 
 h2, h3 {
-    color: green;
+    color: white;
     text-shadow: 2222px 2px 2px  black;
     font-size: 1.5em;
     text-align: center;
@@ -78,8 +78,8 @@ section img, aside img {
 
 .button {
     display: block;
-    background-color: green;
-    color: indianred;
+    background-color: white;
+    color: black;
     height: 40px;
     width: 175px;
     line-height: 40px;
@@ -97,7 +97,7 @@ section img, aside img {
 
 footer {
     text-align: center;
-    color: green;
+    color: white;
 }
 
 .single_col {
@@ -162,8 +162,7 @@ table {
 
     .col img {
         width: 75%;
-        border-radius: 10px;
-        border: 4px solid green;
+        border: 4px solid white;
     }  
 
     .single_col {
@@ -176,15 +175,22 @@ table {
 
 @media(min-width: 1024px) {
     #container {
-        width: 75%;
-        margin: 20px auto;
-        border: 4px solid tan;
-        border-radius: 20px;
+        width: 60%;
+        margin: 50px auto;
+        margin-bottom: 10%;
         } 
 
         header {
-            border-radius: 20px 20px 0 0;
+            padding: auto;
         }   
+
+        header img {
+            width: 60%
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
 
         nav li a {
             margin: 0 20px;
@@ -207,7 +213,7 @@ table {
         }  
     }  
 table, tr, td {
-    border: 4px solid green;
+    border: 4px solid white;
     padding: 10px;
     margin: 10px;
 }
