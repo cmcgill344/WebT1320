@@ -1,0 +1,276 @@
+/*Global Styles*/ 
+body {
+    background-color: black;
+}
+
+img {
+    Display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+    
+
+
+/*Mobile Styles*/
+
+#container {
+    border: 10px solid white;
+}
+
+header h1 {
+    display: flex;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: white;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+    nav, section, aside, .col, footer {
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: white;
+    text-shadow: 2222px 2px 2px  black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 60%;
+}
+
+.button {
+    display: block;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.single_col {
+    width: 83%;
+}
+
+audio, video {
+    display: block; 
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+
+
+/*Tablet Styles*/
+
+@media(min-width: 768px) {
+    #container {
+        border: 10px solid white;
+    }
+
+    header h1 {
+        text-align: center;   
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    header img {
+        width: 60%;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li{
+        display:inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: inline-block;
+}
+    
+   section, aside {
+        width: 40%;
+        display: inline-block;
+        size: auto;
+    }
+
+    section img {
+        width: 73%;
+    }
+    
+    aside img {
+        width: 50%;
+        border: 4px solid black;
+    }
+
+    .col img {
+        width: 50%;
+        border: 4px solid black;
+    }  
+
+    .single_col {
+        width: 90%;
+        table-layout: auto;
+    }
+
+    #lower_flex {
+        text-align: center;
+    }
+
+    footer {
+        width: auto;
+        height: 10%;    }
+}
+
+
+/*Desktop Styles*/
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: auto;
+        border: 10px solid white;
+        }   
+
+        header img {
+            width: 50%;
+            padding-top: 5%
+        }
+
+        header h1 {
+            text-align: center;   
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #upper_flex {
+            display: inline-block;
+        }
+
+        section, aside {
+            width: 44%;
+
+        }
+        section {
+            padding-top: 5.5%;
+        }
+
+        aside {
+            width: 43.5%;
+            padding-top: 3%;
+            padding-bottom: 2.5%;
+        }
+        nav li a {
+            margin: 0 20px;
+        }
+
+        #lower_flex {
+            display: flex;
+        }
+
+        .col {
+            width: 90%;
+        }
+
+        .col img {
+            width: 100%;
+        }
+
+        .single_col {
+            width: 100%;
+        }  
+    }  
+
+table, tr, td {
+    border: 4px solid black;
+    padding: auto;
+    margin: auto;
+    table-layout: 25%;
+}
+
+table img {
+    width: 100%;
+
+    
+}
+.gallery {
+    display: none;
+}
+
+table {
+    display: block;
+
+}
+
+
+
+
+
+
+
+

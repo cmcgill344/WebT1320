@@ -49,10 +49,6 @@ header h1 {
     font-size: 2em;
 }
 
-.col h3 {
-    text-align: center;
-    font-size: 2em;
-}
 .col img {
     width: 70%;
 }
@@ -84,9 +80,6 @@ footer {
         width: 30%;
     }
 
-    #lower_flex {
-        display: flex;
-    }
 }
 
 @media(min-width: 1024px) {
