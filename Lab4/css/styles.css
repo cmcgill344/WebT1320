@@ -223,7 +223,7 @@ table img{
 
     }  
 table, tr, td {
-    border: 4px auto white;
+    border: 4px white;
     padding: 10px;
     margin: 10px;
     width: 60%;
