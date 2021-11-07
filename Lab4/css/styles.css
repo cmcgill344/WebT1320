@@ -17,7 +17,7 @@ img {
 #container {
     background-color: lightskyblue;
     margin: 10px;
-    border-bottom: 50auto;
+    border-bottom: 50px;
 }
 
 header {
@@ -118,10 +118,6 @@ audio, video {
     margin: 10px auto;
 }
 
-table {
-    padding: auto;
-}
-
 table img{
     width: fit-content;
 }
@@ -202,7 +198,7 @@ table img{
         }   
 
         header img {
-            width: 60%
+            width: 60%;
         }
 
         header h1 {
