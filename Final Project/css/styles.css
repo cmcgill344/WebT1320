@@ -1,0 +1,245 @@
+
+/*Global Styles*/ 
+body {
+    background-color: black;
+    padding-bottom: 5px;
+}
+
+img {
+    Display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/*Mobile Styles*/
+
+#container {
+    background-color: lightskyblue;
+    margin: 10px;
+    border-bottom: 50px;
+}
+
+header {
+    background-image: url('Myimages/Mancity1.png');
+    background-size: cover;
+    padding: 50px
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: white;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+    nav, section, aside, .col, footer {
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: white;
+    text-shadow: 2222px 2px 2px  black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    display: block;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.single_col {
+    width: 81%;
+}
+
+audio, video {
+    display: block; 
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table img{
+    width: fit-content;
+}
+
+
+#container {
+    padding-bottom: 5px;
+}
+
+.col img {
+    width: 75%;
+    border: 4px solid white;
+}  
+
+
+
+
+/*Tablet Styles*/
+
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li{
+        display:inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+    
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 75%;
+        border: 4px solid white;
+    }  
+
+    .single_col {
+        width: 92%;
+    }
+}
+
+
+/*Desktop Styles*/
+
+@media(min-width: 1024px) {
+    #container {
+        width: 60%;
+        margin: 50px auto;
+        padding-bottom: 5px;
+        } 
+
+        header img {
+            width: 60%;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        nav li a {
+            margin: 0 20px;
+        }
+
+        #lower_flex {
+            display: flex;
+        }
+
+        .col {
+            width: 90%;
+        }
+
+        .col img {
+            width: 100%;
+        }
+
+        .single_col {
+            width: 100%;
+        }  
+
+    }  
+table, tr, td {
+    border: 4px white;
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    width: fit-content;
+}
+
+table img {
+  display: flex;
+  border: 4px solid white;
+}
+
+.gallery {
+    display: none;
+
+}
+
+
+
