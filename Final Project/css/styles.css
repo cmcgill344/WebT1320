@@ -74,20 +74,43 @@ nav li a:hover {
 /*Mobile Styles*/
 
 
+#container {
+   background-color: rgb(255, 136, 0);
+   width: 300px;
+   margin: auto;
+   text-align: center;
+   border: solid 10px black;;
+}
+
+header img {
+   width: 50%;
+}
+
 
 
 
 /*Tablet Styles*/
 
 @media(min-width: 768px) {
-
+   #container {
+      background-color: rgb(255, 136, 0);
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      border: solid 10px black;;
+   }
+   
+   header img {
+      width: 50%;
+   }
+   
 }
 
 /*Desktop Styles*/
 
 @media(min-width: 1024px) {
    conatiner {
-      width: 60%;
+      width: 100%;
         margin:  auto;
         padding-bottom: 5px;
         } 
