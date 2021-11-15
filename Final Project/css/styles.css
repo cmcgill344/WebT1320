@@ -31,6 +31,10 @@
    margin: 0 40px 40px 40px;
    text-align: center;
  }
+
+ table img {
+    display: inline block;
+ }
 /*Mobile Styles*/
 
 
