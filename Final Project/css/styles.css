@@ -10,7 +10,7 @@
     width: 1000px;
     margin: 20px auto;
     text-align: center;
-    border: solid black;
+    border: solid 10px black;
  }
 
  header img {
@@ -34,8 +34,7 @@
  }
 
  table img {
-   table img {
-      display: flex;
+      display: inline-flex;
       border: 4px white;
  }
 
@@ -45,6 +44,8 @@
    padding: left 33%;
  }
 /*Mobile Styles*/
+
+
 
 
 
