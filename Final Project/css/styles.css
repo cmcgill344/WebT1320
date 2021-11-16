@@ -78,5 +78,7 @@ img {
           color: white;
           border: 5px solid white;
           margin-top: 10%;
+          margin-right: 10%;
+          margin-left: 10%;
        }
       }
