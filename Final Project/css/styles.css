@@ -1,135 +1,50 @@
 
 /*Global Styles*/ 
- body {
-    background-color: white;
-    padding: auto;
- }
- 
- #container {
-    background-color: rgb(255, 136, 0);
-    width: 1000px;
-    margin: 20px auto;
-    text-align: center;
-    border: solid 10px black;;
- }
-
- header img {
-     display: center;
-     width: 80%;
-     padding: 50px;
-     border: 4px white; 
-   }
-
- main img {
-    display: block;
-    width: 50%;
-    margin: 20px auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 0px;
-    border: 4px white;
- }
-
- main {
-   padding: 20px;
-   margin: 0 40px 40px 40px;
-   text-align: center;
- }
-
- table img {
-      display: inline-flex;
-      border: 2px white;
- }
-
- ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
- }
-
- nav ul {
-   list-style-type: none;
+body {
+   background-color: black;
+   padding-bottom: 5px;
 }
 
-nav li {
-   display: inline-flex;
-   padding: 20px;
-   margin: auto;
-   
+img {
+   Display: block;
+   max-width: 100%;
+   margin: 0 auto;
 }
 
-nav li a {
-   block-size: auto;
-   display: block;
-   background-color: white;
-   color: black;
-   height: 40px;
-   line-height: 60px;
-   text-align: justify;
-   text-decoration: none;
-   text-shadow: none;
-   font-size: 1.4em;
-   margin: 10px 0;
-   border-radius: 4px;
-}
-
-nav li a:hover {
-   background-color: rgb(255, 255, 255);
-   text-shadow: 2px 2px 2px;
-}
 /*Mobile Styles*/
+
+@media screen and (max-width: 500px) {
+   .column {
+     width: 100%;
+   }
 
 /*Tablet Styles*/
 
-@media(min-width: 768px) {
-   
 
+@media(min-width: 768px) 
 /*Desktop Styles*/
 
+
 @media(min-width: 1024px) {
-   conatiner {
-      width: 100%;
-      margin: auto;
-      padding-bottom: 5px;
-        } 
+   #container {
+       width: 60%;
+       margin: 50px auto;
+       padding-bottom: 5px;
+       } 
 
-        header img {
-            width: 90%;
-            border: 4px white;
-        }
+       img {
+          width: 50%;
+       }
+       
+       header img {
+           width: 10%;
+           width: fit-content;
+       }
 
-        header h1,h2,h3 {
-            font-size: 3em;
-        }
+       header h1 {
+           font-size: 3em;
+       }
 
-        header h3 {
-           font-size: 2em;
-           
-        }
-
-        #upper_flex {
-         display: flex;
-     }
-     
-     section, aside {
-         width: 50%;
-     }
- 
-     aside img {
-         width: 80%;
-     }
-
-     section img{
-        width: 80%;
-     }
- 
-     .col img {
-         width: 75%;
-         border: 4px solid white;
-     }  
-      
-     h2 {
-        text-align: center;
-     }
-   }
-}
+       nav li a {
+           margin: 0 20px;
+       }
