@@ -1,7 +1,7 @@
 
 /*Global Styles*/ 
 body {
-   background-color: black;
+   background-color: orange;
    padding-bottom: 5px;
 }
 
@@ -9,42 +9,38 @@ img {
    Display: block;
    max-width: 100%;
    margin: 0 auto;
+   border: white 10px;
+
 }
 
 /*Mobile Styles*/
 
-@media screen and (max-width: 500px) {
-   .column {
-     width: 100%;
-   }
-
 /*Tablet Styles*/
-
-
-@media(min-width: 768px) 
+ 
 /*Desktop Styles*/
-
 
 @media(min-width: 1024px) {
    #container {
-       width: 60%;
+       width: 50%;
        margin: 50px auto;
        padding-bottom: 5px;
        } 
 
        img {
-          width: 50%;
+          width: 100%;
        }
        
        header img {
-           width: 10%;
-           width: fit-content;
+           width: 100%;
        }
 
        header h1 {
            font-size: 3em;
+           color: white;
+           text-align: center;
        }
 
        nav li a {
            margin: 0 20px;
+           text-align: center;
        }
