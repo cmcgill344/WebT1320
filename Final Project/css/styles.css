@@ -108,7 +108,6 @@ h1,h2,h3 {
           text-align: center;
        }
 
-
        nav ul {
           text-align: center;
        }
@@ -148,21 +147,18 @@ h1,h2,h3 {
        }
 
        #lower_flex {
-         display: inline-block;
-      }
-      
-      .col {
-         float: left;
-         width: 50%;
+          display: inline-block;
+       }
+
+       .col {
+          float: left;
+          width: 50%;
       }
 
-     .col img {
-        width: 96%;
+      .col img {
+         width: 96%;
+         margin: 10px;
+      }
 
-      
-     }
-   
    }
-
-
       
