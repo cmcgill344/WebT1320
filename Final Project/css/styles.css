@@ -32,6 +32,7 @@ img {
        
        header img {
            width: 100%;
+           border: 10px solid white;
        }
 
        header h1 {
@@ -40,7 +41,25 @@ img {
            text-align: center;
        }
 
+
+       nav ul {
+          text-align: center;
+       }
+
+       nav li {
+          display: inline;
+
+       }
        nav li a {
            margin: 0 20px;
-           text-align: center;
+           display: inline;
        }
+
+       h2,h3 {
+          text-align: center;
+       }
+
+       p {
+          text-align: center;
+       }
+
