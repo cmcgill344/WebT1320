@@ -45,6 +45,10 @@ img {
            text-align: center;
        }
 
+       h1 {
+          text-align: center;
+       }
+
 
        nav ul {
           text-align: center;
@@ -57,6 +61,8 @@ img {
        nav li a {
            margin: 0 20px;
            display: inline;
+           color: white;
+           display: inline-block;
        }
 
        h2,h3 {
@@ -81,4 +87,24 @@ img {
           margin-right: 10%;
           margin-left: 10%;
        }
+
+       #lower_flex {
+         display: inline-block;
+      }
+
+      .col {
+         width: 100%;
+      }
+
+      .col img {
+         width: 100%;
+      }
+
+      .single_col {
+         width: 50%;
+     }  
+      .button {
+         color: white;
+         text-align: center;
+      }
       }
