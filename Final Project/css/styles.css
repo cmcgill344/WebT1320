@@ -15,6 +15,10 @@ img {
 
 /*Mobile Styles*/
 
+img {
+   border: 5px solid white;
+ }
+
 /*Tablet Styles*/
  
 /*Desktop Styles*/
@@ -61,9 +65,17 @@ img {
 
        p {
           text-align: center;
+       
        }
 
-       main img {
-          width: 100%;
+       img {
+         border: 5px solid white;
+       }
+
+       footer {
+          text-align: center;
+          font-size: 2em;
+          color: white;
+          border: 5px solid white;
        }
       }
