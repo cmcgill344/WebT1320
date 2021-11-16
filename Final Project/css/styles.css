@@ -20,7 +20,34 @@ img {
  }
 
 /*Tablet Styles*/
- 
+#container {
+   width: 90%;
+   margin: 50px auto;
+   padding-bottom: 5px;
+   } 
+
+   img {
+   border: 5px solid black;
+ }
+
+    nav ul {
+          text-align: center;
+       }
+
+      nav li {
+          display: inline;
+
+       }
+      nav li a {
+           margin: 0 20px;
+           display: inline;
+           color: white;
+           display: inline-block;
+       }
+
+       h1,h2,h3 {
+          text-align: center;
+       }
 /*Desktop Styles*/
 
 @media(min-width: 1024px) {
