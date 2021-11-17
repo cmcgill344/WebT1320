@@ -3,15 +3,16 @@
 body {
    background-color: orange;
    padding-bottom: 5px;
+   border: 5px solid black;
 }
 
 img {
    Display: block;
    max-width: 100%;
    margin: 0 auto;
-   border: white 10px;
 
 }
+
 
 /*Mobile Styles*/
 
@@ -21,6 +22,7 @@ img {
 
  nav ul {
    text-align: center;
+   margin-right:  30px;
 }
 
 nav li {
@@ -36,7 +38,8 @@ nav li a {
 
 h1,h2,h3 {
    text-align: center;
-}
+
+ }
 
 /*Tablet Styles*/
 #container {
@@ -128,14 +131,10 @@ h1,h2,h3 {
        }
 
        p {
-          text-align: center;
+          text-align: center;       
+       }
+
        
-       }
-
-       img {
-         border: 5px solid white;
-       }
-
        footer {
           text-align: center;
           font-size: 2em;
@@ -146,19 +145,42 @@ h1,h2,h3 {
           margin-left: 10%;
        }
 
-       #lower_flex {
-          display: inline-block;
-       }
-
-       .col {
-          float: left;
-          width: 50%;
+       
+      aside img {
+         width: 100%;
+         margin-left: 0;
       }
-
-      .col img {
-         width: 96%;
-         margin: 10px;
-      }
-
-   }
       
+      section img {
+         width: 55%;
+      }
+      #upper_flex {
+         display: flex;
+      }
+      aside,section {
+         border-radius: 10px;
+         border: 4px solid white;
+      }
+      
+  table,tr,td {
+   border: 4px white;
+   padding: 10px;
+   margin: 10px;
+   width: 60%;
+   display: flex;
+   width: fit-content;
+  }
+  table img {
+    display: flex;
+    border: 4px solid white;
+  
+  }
+  audio, video {
+   display: flex;
+   margin: 20px auto;
+   width: 75%;
+}
+
+ 
+  
+   }
