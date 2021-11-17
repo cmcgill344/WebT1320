@@ -41,6 +41,11 @@ h1,h2,h3 {
 
  }
 
+ .col img {
+    display: inline-block;
+    padding: 0;
+ }
+
 
 
 /*Tablet Styles*/
@@ -179,7 +184,9 @@ h1,h2,h3 {
          width: 50%;
       }
 
-      
+      main Img {
+         padding: 0;
+      }
    
 
   table,tr,td {
