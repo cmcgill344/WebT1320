@@ -1,7 +1,7 @@
 
 /*Global Styles*/ 
 body {
-   background-color: orange;
+   background-color: black;
    padding-bottom: 5px;
    border: 30px solid black;
 }
@@ -213,33 +213,37 @@ img {
 @media(min-width: 1024px) {
    #container {
       width: 60%;
-      margin: 50px auto;
-      padding-bottom: 5px;
+      margin: auto;
+      border: 10px solid white;
    } 
-       header img {
-           width: 125%;
-       }
 
        header h1 {
            font-size: 4em;
-           padding-bottom: 10px;
-           margin-left: 12%;
+           text-align: center;
+           padding-top: 10px;
+           margin: 0;
        }
 
+       header img {
+         display:inline-block;
+         margin: 0 auto;
+       }
        nav li a {
            display: inline-block;
        }
 
-       #lower_flex {
+       #upper_flex {
            display: flex;
        }
 
        .col {
-           width: 70%;
+           width: 100%;
        }
 
        .col img {
-           width: 50%;
+           width: 100%;
+           border: none;
+           object-fit: cover;
        }
 
        .single_col {
@@ -255,26 +259,23 @@ img {
           color: white;
        }
 
-table, tr, td {
-   border: 4px white;
-   padding: 10px;
-   margin: 10px;
-   width: 60%;
-   display: flex;
-   width: fit-content;
-}
+       section, aside {
+          width: 50%;
+       }
 
-table img {
- display: flex;
- border: 4px solid white;
+       aside img {
+          max-width:100%;
+          height:auto;
 }
-
-.gallery {
-   display: none;
-
+footer {
+   text-align: center;
+   color: white;
+   font-size: 2em;
+   width: 93%;
 }
+       }
 
-}
+
 
 
    
