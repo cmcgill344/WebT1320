@@ -29,7 +29,6 @@ header img {
 }
 
 header {
-   background-image: url('Myimages/Mancity1.png');
    background-size: cover;
 }
 
@@ -37,6 +36,7 @@ header h1 {
    color: white;
    text-shadow: 2px 2px 2px black(158, 150, 150);
    text-align: center;
+   padding-left: 10px;
 }
 
 p {
@@ -49,16 +49,17 @@ nav ul {
 }
 
 nav li {
-   display: block;
+   display:block;
 }
+
 nav li a {
    display: block;
-   background-color: orange;
-   color: white;
+   background-color: white;
+   color: orange;
    text-align: center;
    text-decoration: none;
    font-size: 1.2em;
-   margin: 10px 0;
+   margin: 5px 5px;
 
 }
 nav li a:hover {
@@ -110,7 +111,8 @@ footer {
    color: white;
    margin-top: 20px;
    margin-bottom: 5px;
-   margin-right: 0
+   margin-right: 0;
+   font-size: 2em;
 }
 
 .single_col {
@@ -169,8 +171,8 @@ img {
        padding: 5px;
    }
 
-   nav ul{
-       display:inline-block;
+   nav li {
+      display: inline-block;
    }
 
    nav li a {
@@ -191,6 +193,10 @@ img {
        width: 50%;
    }
 
+   aside img {
+      width: 100%;
+   }
+
    .col img {
        width: 75%;
        border: 4px solid white;
@@ -206,11 +212,10 @@ img {
 
 @media(min-width: 1024px) {
    #container {
-       width: 60%;
-       margin: 50px auto;
-       padding-bottom: 5px;
-       } 
-
+      width: 60%;
+      margin: 50px auto;
+      padding-bottom: 5px;
+   } 
        header img {
            width: 125%;
        }
@@ -218,11 +223,11 @@ img {
        header h1 {
            font-size: 4em;
            padding-bottom: 10px;
+           margin-left: 12%;
        }
 
        nav li a {
-           margin: 0 20px;
-           padding-top: 80px;
+           display: inline-block;
        }
 
        #lower_flex {
@@ -230,15 +235,15 @@ img {
        }
 
        .col {
-           width: 90%;
+           width: 70%;
        }
 
        .col img {
-           width: 100%;
+           width: 50%;
        }
 
        .single_col {
-           width: 100%;
+           width: 50%;
        }  
        img {
           margin: 5%;
@@ -249,7 +254,7 @@ img {
           text-align: center;
           color: white;
        }
-   }  
+
 table, tr, td {
    border: 4px white;
    padding: 10px;
@@ -269,7 +274,7 @@ table img {
 
 }
 
-
+}
 
 
    
