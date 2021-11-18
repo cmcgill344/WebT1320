@@ -20,12 +20,13 @@ img {
 #container {
    background-color: orange;
    margin: 10px;
+   padding-top: 10px;
    border-bottom: 50px;
    margin-right: 20px;
 }
 
 header img {
-   width: 100%;
+   width: 90%;
 }
 
 header {
@@ -111,8 +112,9 @@ footer {
    color: white;
    margin-top: 20px;
    margin-bottom: 5px;
-   margin-right: 0;
+   margin-right: 10px;
    font-size: 2em;
+   
 }
 
 .single_col {
