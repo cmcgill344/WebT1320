@@ -23,6 +23,7 @@ img {
    padding-top: 10px;
    border-bottom: 50px;
    margin-right: 20px;
+   padding-bottom: 5px;
 }
 
 header img {
@@ -141,21 +142,14 @@ table img{
    width:fit-content
 }
 
-
-#container {
-   padding-bottom: 5px;
-}
-
 .p {
    text-align: center;
 }
 
 img {
    margin-bottom: 10px;
+   width: 90%;
 }
-
-
-
 
 /*Tablet Styles*/
  
