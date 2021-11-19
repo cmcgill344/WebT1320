@@ -102,14 +102,14 @@ footer {
     color: white;
 }
 
-.single_col {
-    width: 81%;
-}
-
 audio, video {
     display: block; 
     margin: 20px auto;
     width: 75%;
+}
+
+.single_col {
+    width: 81%;
 }
 
 .gallery_img {
