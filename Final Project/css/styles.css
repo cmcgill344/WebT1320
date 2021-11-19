@@ -119,12 +119,6 @@ footer {
    font-size: 2em;
 }
 
-audio, video {
-   display: block; 
-   margin: 20px auto;
-   width: 75%;
-}
-
 .section.single_col {
    width: 81%;
 }
@@ -146,17 +140,21 @@ img {
    width: 90%;
 }
 
-table {
-   display: none;
-   
-}
-
 section {
    align-content: center;
 }
 table {
    display: none;
+
 }
+
+audio, video {
+   display: block;
+   margin-bottom: 10px;
+   width: 100%;
+  padding-left: 12px;
+}
+
 /*Tablet Styles*/
  
 @media(min-width: 768px) {
@@ -190,15 +188,16 @@ table {
        width: 200px;
    }
 
-   audio, video {
-      display: block; 
-      margin: 20px auto;
-      width: 95%;
-      padding-left: 40px;
-   }
-
    #upper_flex {
        display: flex;
+   }
+
+   audio, video {
+         display: block; 
+         margin: 20px auto;
+         width: 75%;
+         margin-right: 50px;
+     }
    }
    
    section, aside {
@@ -269,6 +268,11 @@ table {
          font-size: 1.2em;
          margin: 5px 5px;
          }
+
+      #upper_flex {
+         display: flex;
+         align-content: center;
+      }
    
        .col {
          width: 100%;
@@ -279,10 +283,6 @@ table {
          border: none;
          object-fit: cover;
          }
-
-       .single_col {
-           width: 50%;
-           }  
 
        h1 {
            text-align: center;
@@ -298,17 +298,7 @@ table {
           height:auto;
           }
 
-          audio, video {
-            display: block; 
-            margin: 20px auto;
-            width: 95%;
-            padding-left: 40px;
-         }
-
-         controls {
-            width: 100%;
-         }
-
+         
 .gallery {
    display: none;
 }
@@ -323,10 +313,9 @@ footer {
 
 audio, video {
    display: block;
-   margin: 20px auto;
-   width: 75%;
-}
+   margin: 50px;
 
 }
 
-   
+
+}  
