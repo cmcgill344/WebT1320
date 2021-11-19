@@ -281,20 +281,6 @@ table {
           height:auto;
 }
 
-table, tr, td {
-   border: 4px white;
-   padding: 10px;
-   margin: 10px;
-   width: 60%;
-   display: flex;
-   width: fit-content;
-}
-
-table img {
- display: flex;
- border: 4px solid white;
-}
-
 .gallery {
    display: none;
 }
