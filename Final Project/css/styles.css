@@ -186,6 +186,10 @@ audio, video {
        padding: 5px;
    }
 
+   nav ul {
+      margin-right: 20px auto;
+   }
+
    nav li {
       display: inline-block;
       align-content: center;
@@ -205,6 +209,14 @@ audio, video {
       width: 100%;
       font-size: 2em;
       margin-left: 20px;
+      }
+
+      h2 {
+      font-size: 4em;      
+      }
+
+      h1 {
+         font-size: 3em;
       }
 
    audio, video {
@@ -332,8 +344,12 @@ audio, video {
 
       h2, h3 {
           width: 100%;
-          margin-left: 50px;
+          text-align: center;
           }
+
+          h2 {
+             font-size: 3em;
+             }
 
       audio, video {
           padding-left: 100px;
@@ -353,7 +369,8 @@ audio, video {
 
       footer {
             width: 100%;
-          }    
+            margin-left: 20px;
+          }   
         
 .gallery {
    display: none;
