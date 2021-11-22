@@ -242,8 +242,9 @@ audio, video {
 
    iframe {
       display: block;
-      margin: 20px auto;
+      margin-right: 10px;
       width: 90%;
+
    }
 
 }
@@ -360,8 +361,8 @@ audio, video {
 
 iframe {
    display: block;
-   margin: 20px auto;
-   width: 50%;
+   width: 70%;
+   margin-left: 20%;
 }
 
 
