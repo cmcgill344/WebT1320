@@ -292,8 +292,12 @@ audio, video {
            width: 100%;
           }
 
+          section img {
+             width: 93%;
+          }
+
         aside img {
-          max-width:100%;
+          width: 93%;
           height:auto;
           }
 
@@ -306,6 +310,11 @@ audio, video {
              padding-left: 100px;
           }
 
+
+          p {
+             text-align: center;
+             color: black;
+          }
          
 .gallery {
    display: none;
