@@ -152,6 +152,12 @@ audio, video {
    width: 80%;
    padding-left: 30px;
    }
+
+   iframe {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
+   }
 /*Tablet Styles*/
  
 @media(min-width: 768px) {
@@ -232,6 +238,12 @@ audio, video {
 
    div.gallery {
       width: 109%;
+   }
+
+   iframe {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
    }
 
 }
@@ -344,6 +356,12 @@ footer {
 audio, video {
    display: block;
    margin: 50px;
+}
+
+iframe {
+   display: block;
+   margin: 20px auto;
+   width: 50%;
 }
 
 
