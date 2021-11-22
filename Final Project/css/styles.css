@@ -19,11 +19,12 @@ img {
 #container {
    background-color: orange;
    margin: 10px;
+   margin-right: 5px;
    padding-top: 10px;
    border-bottom: 50px;
    margin-right: 20px;
    padding-bottom: 5px;
-   border: 2px solid white;
+   border: 3px solid white;
 }
 
 header img {
@@ -71,7 +72,7 @@ nav li a:hover {
    text-shadow: 2px 2px 2px black;
 }
 
-   nav,.col, footer {
+nav,.col, footer {
    background-color: orange;
    padding: 20px;
    margin: 10px;
@@ -89,8 +90,9 @@ h1 {
 h2, h3 {
    color: white;
    text-shadow: 2px 2px 2px  black;
-   font-size: 1.5em;
+   font-size: 1.2em;
    text-align: center;
+   margin: 20px auto;
 }
 
 .button {
@@ -198,6 +200,12 @@ audio, video {
    #upper_flex {
        display: flex;
    }
+
+   h2, h3 {
+      width: 100%;
+      font-size: 2em;
+      margin-left: 20px;
+      }
 
    audio, video {
          display: block; 
@@ -307,7 +315,7 @@ audio, video {
       h1 {
          text-align: center;
          color: white;
-         }
+      }
 
       section, aside {
            width: 100%;
@@ -323,7 +331,8 @@ audio, video {
           }
 
       h2, h3 {
-          text-align: center;
+          width: 100%;
+          margin-left: 50px;
           }
 
       audio, video {
@@ -341,6 +350,10 @@ audio, video {
           display: flex;
           margin-left: 20px;
           }
+
+      footer {
+            width: 100%;
+          }    
         
 .gallery {
    display: none;
@@ -364,6 +377,8 @@ iframe {
    width: 70%;
    margin-left: 20%;
 }
+
+
 
 
 }
