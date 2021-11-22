@@ -24,6 +24,7 @@ img {
    border-bottom: 50px;
    margin-right: 20px;
    padding-bottom: 5px;
+   border: 2px solid white;
 }
 
 header img {
@@ -161,7 +162,7 @@ audio, video {
    #conatiner {
       width: 50%;
       margin-right: 20px;
-      border: 4px white solid;
+      border: 3px solid white;
    }
    
    header {
@@ -208,8 +209,9 @@ audio, video {
    }
 
    aside img {
-      width: 100%;
+      width: 92%;
    }
+
 
    .col img {
        width: 75%;
@@ -218,6 +220,12 @@ audio, video {
 
    .single_col {
        width: 92%;
+   }
+
+   p {
+      color: black;
+      text-align: center;
+
    }
 
    table {
@@ -279,7 +287,7 @@ audio, video {
 
        .col img {
          width: 100%;
-         border: none;
+         border: 2px solid black;
          object-fit: cover;
          }
 
@@ -303,7 +311,6 @@ audio, video {
 
           h2, h3 {
              text-align: center;
-             padding-left: 50px;
           }
 
           audio, video {
@@ -314,6 +321,12 @@ audio, video {
           p {
              text-align: center;
              color: black;
+          }
+
+          table,td,tr {
+             display: flex;
+             width: 100%;
+             align-content: center;   
           }
          
 .gallery {
