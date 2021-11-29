@@ -37,7 +37,7 @@ header {
 
 header h1 {
    color: white;
-   text-shadow: 2px 2px 2px black(158, 150, 150);
+   text-shadow: 2px 2px 2px black(150, 150, 150);
    text-align: center;
    padding-left: 10px;
 }
@@ -124,10 +124,6 @@ footer {
 
 .section.single_col {
    width: 81%;
-}
-
-.gallery {
-   border-radius: none;
 }
 
 .history img {
